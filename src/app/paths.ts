@@ -1,15 +1,15 @@
 const paths = {
   home() {
-    return "/";
+    return '/';
   },
   about() {
-    return "/about";
+    return '/about';
   },
   applications() {
-    return "/applications";
+    return '/applications';
   },
   authentication() {
-    return "/authentication";
+    return '/authentication';
   },
 };
 
