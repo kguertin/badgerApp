@@ -1,6 +1,6 @@
 {
   "name": "badger-app",
-  "version": "0.1.0",
+  "version": "1.22.21",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -16,7 +16,9 @@
     "npm": "please-use-yarn"
   },
   "dependencies": {
+    "@nextui-org/react": "^2.2.10",
     "@prisma/client": "5.11.0",
+    "framer-motion": "^11.0.22",
     "next": "14.1.2",
     "prisma": "^5.11.0",
     "react": "^18",
