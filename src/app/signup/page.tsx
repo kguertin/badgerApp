@@ -1,3 +1,3 @@
 export default function AuthenticationPage() {
-  return <div>Authentication Page</div>;
+  return <div>signup Page</div>;
 }
