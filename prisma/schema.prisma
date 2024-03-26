@@ -16,4 +16,29 @@ generator client {
 model User {
   id    Int    @id @default(autoincrement())
   email String @unique
+  password String 
+  name String
 }
+
+// data provided by employer or board 
+model Posting {
+    id    Int    @id @default(autoincrement())
+    title String
+    description String 
+    date DateTime
+    author  String 
+    isAgency Boolean
+    // Make site an enum
+    site String 
+    application Application?
+
+}
+
+//data provided by user
+model Application {
+   id    Int    @id @default(autoincrement())
+   posting Posting @relation(fields: [id], references: [id])
+   date DateTime
+   notes String 
+}
+

@@ -1,5 +1,5 @@
-import Link from 'next/link';
 import paths from '@/app/paths';
+import Link from 'next/link';
 
 export default function Home() {
   return (
