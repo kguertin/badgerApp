@@ -8,8 +8,8 @@ const paths = {
   applications() {
     return '/applications';
   },
-  authentication() {
-    return '/authentication';
+  signUp() {
+    return '/signup';
   },
 };
 
