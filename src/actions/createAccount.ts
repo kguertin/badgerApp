@@ -1,6 +1,6 @@
 'use server';
 
-export async function Signup(
+export async function createAccount(
   formState: number,
   formData: FormData
 ): Promise<any> {

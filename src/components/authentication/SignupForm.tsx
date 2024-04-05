@@ -7,7 +7,7 @@ import { useFormState } from 'react-dom';
 import * as actions from '@/actions';
 
 export default function SignupForm() {
-  const [formState, action] = useFormState(actions.Signup, 0);
+  const [formState, action] = useFormState(actions.createAccount, 0);
   console.log(formState);
   return (
     <form action={action}>
