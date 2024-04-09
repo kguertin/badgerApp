@@ -20,6 +20,12 @@ export default function SignupForm() {
           placeholder="Email"
         />
         <Input
+          name="username"
+          label="Username"
+          labelPlacement="outside"
+          placeholder="Username"
+        />
+        <Input
           name="password"
           label="Password"
           labelPlacement="outside"

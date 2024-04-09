@@ -23,7 +23,8 @@
     "prisma": "^5.11.0",
     "react": "^18",
     "react-dom": "^18",
-    "sqlite3": "^5.1.7"
+    "sqlite3": "^5.1.7",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "@types/node": "^20",
